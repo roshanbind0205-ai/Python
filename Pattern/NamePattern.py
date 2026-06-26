@@ -5,7 +5,7 @@ for i in range(1, n + 1):
     # 1st letter
     for j in range(1, n + 1):
         condition = (
-            (j==1) or(i==1 and j<=5)or(j==5 and i<=4)or(i==4 and j<=5)or(i-j==2))
+          (j==1)or(i==1 and j<=5)or(j==5 and i<=4) or(i==4 and j<=5)or(i-j==2) )
         
         if condition:
             print(" *",end="")
