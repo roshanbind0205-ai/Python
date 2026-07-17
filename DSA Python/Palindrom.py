@@ -8,3 +8,5 @@ if(temp==rev):
     print("Palindrom")
 else:
     print("not palindrom")
+    
+    # jhsdisja
